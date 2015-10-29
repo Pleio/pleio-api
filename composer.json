@@ -1,0 +1,7 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "elgg/elgg": "2.0.0-beta.2",
+        "slim/slim": "2.*"
+    }
+}

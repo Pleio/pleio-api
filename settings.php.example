@@ -1,0 +1,23 @@
+<?php
+
+global $CONFIG;
+if (!isset($CONFIG)) {
+	$CONFIG = new \stdClass;
+}
+
+$CONFIG->dbuser = '';
+$CONFIG->dbpass = '';
+$CONFIG->dbname = '';
+$CONFIG->dbhost = 'localhost';
+$CONFIG->dbprefix = 'elgg_';
+
+$CONFIG->broken_mta = false;
+$CONFIG->db_disable_query_cache = false;
+$CONFIG->min_password_length = 6;
+$CONFIG->exception_include = '';
+
+/*$CONFIG->memcache = true;
+$CONFIG->memcache_prefix = "elgg_dev2_";
+$CONFIG->memcache_servers = array (
+        array('localhost', 11211)
+);*/
